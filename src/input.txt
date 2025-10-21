@@ -1,0 +1,10 @@
+search Daniel the Wizard
+search RandomMovieNotHere
+insert "My Movie",2025,"1hr 20 min","Drama",8.5,"This is a test movie.","Student Director","Student Star"
+search My Movie
+insert "My Movie",2025,"1hr 20 min","Drama",8.5,"This is a test movie.","Student Director","Student Star"
+remove My Movie
+remove RandomMovieNotHere
+print
+Hello CSC 201
+search Foodfight!

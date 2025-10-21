@@ -67,16 +67,38 @@ Run your program several times for different number of lines of your dataset, N,
 Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot the running time (in seconds) and rate (in seconds per node) vs. N for each case, comparing the BST and AVL Trees (i.e., two lines per graph). Take a screenshot of your graph and put them here by modifying this file, committing, and pushing it to this repository.
 
 BST vs. AVL Tree running time (insertion):
-(insert here)
+![Insert Time Graph](Images/GraphInsertRunningTime.png)
 
 BST vs. AVL Tree running time (search):
-(insert here)
+![Search Time Graph](Images/GraphSearchRunningTime.png)
 
 BST vs. AVL Tree running rate (insertion):
-(insert here)
+![Insert Rate Graph](Images/GraphInsertRunningRate.png)
 
 BST vs. AVL Tree running rate (search):
-(insert here)
+![Search Rate Graph](Images/GraphSearchRunningRate.png)
+
+## ChatGPT Interactions:
+### Interaction 1:
+1) Prompt: Can you please finish the AvlTree class for me?
+
+2) Output (partial since long):
+![Prompt1](Images/Prompt1ChatGPT.png)
+
+3) Assessment:
+   ChatGPT provided a complete AVL Tree implementation based on my partially completed starter code.
+   It helped confirm correct rotation logic and balancing structure for insertions and deletions.
+   This was very useful for verifying my syntax and structure, but I personally reviewed and tested every method to ensure it followed the AVL rules taught in class.
+
+### Interaction 2:
+1) Prompt: Can you please finish the Proj2 class for me?
+
+2) Output (partial since long):
+![Prompt1](Images/Prompt2ChatGPT.png)
+
+3) Assessment: ChatGPT helped me finalize the Proj2.java driver program, ensuring both timing mode and command mode were implemented correctly.
+It guided how to organize the file, handle timing with System.nanoTime(), and format CSV output.
+This was helpful for improving organization and clarity, but I tested all functionality myself and confirmed full compliance with the assignment specifications.
 
 ## Submission:
 
